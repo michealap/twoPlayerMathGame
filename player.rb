@@ -11,5 +11,4 @@ class Player
   def subtract_point
     @lives -= 1
   end
-
 end
