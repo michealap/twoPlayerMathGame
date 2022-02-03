@@ -1,0 +1,25 @@
+## Classes
+- Player
+- Question
+- Game
+
+## Roles
+
+Player Class
+- initialize the name and the lives
+
+Question Class
+- initialize the question & answers
+
+Game Class 
+- initalize Player class into array and a method to track the current player
+-  contains game loop
+  - a method that will greet players
+  - a method that will create the questions, display question(puts) aand checks if its the correct answer
+  - a method to swap between players
+  - a method of checking if lives of player is greater than 0
+  - a method to print the scores after each round
+
+Notes
+- Functions that end with ? in Ruby are functions that return a boolean true or false.
+- attr_accessor automatically sets up getters and setters for instance variables
